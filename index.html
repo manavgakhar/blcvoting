@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Vote</title>
+  <link type='text/css' href='./main.css' rel='stylesheet'>
+  <script src='./index.js'></script>
+</head>
+<body>
+  <h1>Smart vote dapp</h1>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+      </thead>
+      <tbody id='candidatesTable'>
+      </tbody>
+    </table>
+  </div>
+  <div class='row'>
+      <select id='selectAccount'></select>
+      <select id='selectCandidate'></select>
+      <br>
+      <button type='button' class='btn btn-outline-primary' id='voteSubmit'>Vote</button>
+  </div>
+</body>
+</html>
